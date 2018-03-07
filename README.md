@@ -6,7 +6,7 @@ This repository contains resources developed within the following paper:
 	Liono, J., Qin, A. K., & Salim, F. D. (2016, November). Optimal time window for temporal segmentation of sensor streams in multi-activity recognition. 
 	In Proceedings of the 13th International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services (pp. 10-19). ACM. 
 
-You can find the [paper](link) and [presentation](link) in this repository. 
+You can find the [paper](https://github.com/cruiseresearchgroup/OPTWIN/blob/master/paper/liono2016optwin.pdf) and [presentation](https://github.com/cruiseresearchgroup/OPTWIN/blob/master/presentation/Mobiquitous2016.pdf) in this repository. 
 
 Alternative link: https://dl.acm.org/citation.cfm?id=2994388
 
