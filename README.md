@@ -1,3 +1,6 @@
+> **If you use the resources (algorithm, code and dataset) presented in this repository, please cite our paper.**  
+*The BibTeX entry is provided at the bottom of this page. 
+
 # Optimal time window for temporal segmentation of sensor streams in multi-activity recognition
 Multi-activity recognition in the urban environment is a challenging task. This is largely attributed to the influence of urban dynamics, the variety of the label sets, and the heterogeneous nature of sensor data that arrive irregularly and at different rates. One of the first tasks in multi-activity recognition is temporal segmentation. A common temporal segmentation method is the sliding window approach with a fixed window size, which is widely used for single activity recognition. In order to recognise multiple activities from heterogeneous sensor streams, we propose a new time windowing technique that can optimally extract segments with multiple activity labels. The mixture of activity labels causes the impurity in the corresponding temporal segment. Hence, larger window size imposes higher impurity in temporal segments while increasing class separability. In addition, the combination of labels from multiple activity label sets (i.e. number of unique multi-activity) may decrease as impurity increases. Naturally, these factors will affect the performance of classification task. In our proposed technique, the optimal window size is found by gaining the balance between minimising impurity and maximising class separability in temporal segments. As a result, it accelerates the learning process for recognising multiple activities (such as higher level and atomic human activities under different environment contexts) in comparison to laborious tasks of sensitivity analysis. The evaluation was validated by experiments on a real-world dataset for recognising multiple human activities in a smart environment. 
 
@@ -22,6 +25,8 @@ The repository is structured as follows:
 
 ## OPPORTUNITY Dataset
 The original OPPORTUNITY dataset is sourced from [here](https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition). 
+
+## Possible Applications
 
 ## Citation
 If you use the resources presented in this repository, please cite (using the following BibTeX entry):
