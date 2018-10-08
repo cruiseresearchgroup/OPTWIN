@@ -903,6 +903,7 @@ static const char __pyx_k_os[] = "os";
 static const char __pyx_k_csv[] = "csv";
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_sys[] = "sys";
+static const char __pyx_k_data[] = "../../data";
 static const char __pyx_k_file[] = "file";
 static const char __pyx_k_join[] = "join";
 static const char __pyx_k_json[] = "json";
@@ -921,7 +922,6 @@ static const char __pyx_k_os_path[] = "os.path";
 static const char __pyx_k_pathlib[] = "pathlib";
 static const char __pyx_k_the_sum[] = "the_sum";
 static const char __pyx_k_ind_file[] = "ind_file";
-static const char __pyx_k_processed[] = "./processed/";
 static const char __pyx_k_streamdir[] = "streamdir";
 static const char __pyx_k_CsvDsStream[] = "CsvDsStream";
 static const char __pyx_k_S1_ADL1_csv[] = "S1-ADL1.csv";
@@ -977,6 +977,7 @@ static PyObject *__pyx_kp_s_caches;
 static PyObject *__pyx_n_s_clear_cache;
 static PyObject *__pyx_n_s_cline_in_traceback;
 static PyObject *__pyx_n_s_csv;
+static PyObject *__pyx_kp_s_data;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_extract_features;
 static PyObject *__pyx_n_s_file;
@@ -1003,7 +1004,6 @@ static PyObject *__pyx_n_s_os_path;
 static PyObject *__pyx_n_s_overlap_percentage;
 static PyObject *__pyx_n_s_pathlib;
 static PyObject *__pyx_n_s_print;
-static PyObject *__pyx_kp_s_processed;
 static PyObject *__pyx_kp_s_recommended_window_seconds;
 static PyObject *__pyx_n_s_recommended_window_size;
 static PyObject *__pyx_n_s_runmobiquitousexperiment;
@@ -1127,22 +1127,22 @@ static PyObject *__pyx_pf_29mobiquitous_experiment_runner_runmobiquitousexperime
  * 
  *     print('testing for optimal window code')             # <<<<<<<<<<<<<<
  * 
- *     streamdir = './processed/'
+ *     streamdir = '../../data'
  */
   if (__Pyx_PrintOne(0, __pyx_kp_s_testing_for_optimal_window_code) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
 
   /* "mobiquitous_experiment_runner.pyx":26
  *     print('testing for optimal window code')
  * 
- *     streamdir = './processed/'             # <<<<<<<<<<<<<<
+ *     streamdir = '../../data'             # <<<<<<<<<<<<<<
  * 
  *     filestoinspect = [
  */
-  __Pyx_INCREF(__pyx_kp_s_processed);
-  __pyx_v_streamdir = __pyx_kp_s_processed;
+  __Pyx_INCREF(__pyx_kp_s_data);
+  __pyx_v_streamdir = __pyx_kp_s_data;
 
   /* "mobiquitous_experiment_runner.pyx":28
- *     streamdir = './processed/'
+ *     streamdir = '../../data'
  * 
  *     filestoinspect = [             # <<<<<<<<<<<<<<
  *         'S1-ADL1.csv',
@@ -1595,6 +1595,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_clear_cache, __pyx_k_clear_cache, sizeof(__pyx_k_clear_cache), 0, 0, 1, 1},
   {&__pyx_n_s_cline_in_traceback, __pyx_k_cline_in_traceback, sizeof(__pyx_k_cline_in_traceback), 0, 0, 1, 1},
   {&__pyx_n_s_csv, __pyx_k_csv, sizeof(__pyx_k_csv), 0, 0, 1, 1},
+  {&__pyx_kp_s_data, __pyx_k_data, sizeof(__pyx_k_data), 0, 0, 1, 0},
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_extract_features, __pyx_k_extract_features, sizeof(__pyx_k_extract_features), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
@@ -1621,7 +1622,6 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_overlap_percentage, __pyx_k_overlap_percentage, sizeof(__pyx_k_overlap_percentage), 0, 0, 1, 1},
   {&__pyx_n_s_pathlib, __pyx_k_pathlib, sizeof(__pyx_k_pathlib), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
-  {&__pyx_kp_s_processed, __pyx_k_processed, sizeof(__pyx_k_processed), 0, 0, 1, 0},
   {&__pyx_kp_s_recommended_window_seconds, __pyx_k_recommended_window_seconds, sizeof(__pyx_k_recommended_window_seconds), 0, 0, 1, 0},
   {&__pyx_n_s_recommended_window_size, __pyx_k_recommended_window_size, sizeof(__pyx_k_recommended_window_size), 0, 0, 1, 1},
   {&__pyx_n_s_runmobiquitousexperiment, __pyx_k_runmobiquitousexperiment, sizeof(__pyx_k_runmobiquitousexperiment), 0, 0, 1, 1},
