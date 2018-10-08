@@ -37,3 +37,4 @@ MANIFEST
 
 .tox
 .DS_Store
+/caches/

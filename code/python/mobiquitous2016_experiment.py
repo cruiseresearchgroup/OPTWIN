@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     print('testing for optimal window code')
 
-    streamdir = './processed/'
+    streamdir = '../../data'
 
     filestoinspect = [
         'S1-ADL1.csv',
